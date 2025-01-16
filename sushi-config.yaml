@@ -1,0 +1,13 @@
+canonical: http://hl7.org/fhir/ExampleIG
+fhirVersion: 4.0.1
+FSHOnly: false
+applyExtensionMetadataToRoot: false
+id: ExampleIG
+name: ExampleIG
+releaseLabel: ci-build
+status: draft
+copyrightYear: 2025
+version: 1.0.0
+publisher:
+  name: "FHIR Greek Core"
+  url: "http://example.org"
