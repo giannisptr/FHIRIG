@@ -1,0 +1,6 @@
+Source File	Size	loadResources	load-configure	scan	loadDepInfo	loadInfo	load	generateSnapshots	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+\fsh-generated\resources\ImplementationGuide-ExampleIG.json	2203	-	0	0	0	0	0	0	5	795	0	0	0	0	0	0	0	1	0	0	148	142	0	0	1	4	0	1
+fsh-generated/resources/OperationDefinition-search-by-amka.json	928	23	2	0	0	1	0	0	0	66	0	0	0	0	0	0	0	0	0	0	44	64	0	1	0	1	0	0
+fsh-generated/resources/StructureDefinition-AMKAExtention.json	1616	21	0	0	1	0	0	29	0	61	0	0	1	0	0	0	0	0	0	0	132	1593	0	0	0	3	0	1
+fsh-generated/resources/StructureDefinition-EmergencyContactExtension.json	3660	22	0	0	0	0	0	53	0	84	0	0	0	0	0	0	0	1	0	0	457	951	0	0	0	8	0	1
+fsh-generated/resources/StructureDefinition-PatientProfile.json	1637	15	0	0	0	0	0	99	0	44	0	0	0	0	0	0	0	1	0	0	530	1299	0	0	0	12	0	0

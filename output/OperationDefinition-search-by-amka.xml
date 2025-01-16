@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<OperationDefinition xmlns="http://hl7.org/fhir">
+  <id value="search-by-amka"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: OperationDefinition search-by-amka</b></p><a name="search-by-amka"> </a><a name="hcsearch-by-amka"> </a><a name="search-by-amka-en-US"> </a><p>URL: [base]/Patient/$search-by-amka</p><p>Output parameters Profile:<a href="StructureDefinition-PatientProfile.html">PatientProfile</a></p><h3>Parameters</h3><table class="grid"><tr><td><b>Use</b></td><td><b>Name</b></td><td><b>Scope</b></td><td><b>Cardinality</b></td><td><b>Type</b></td><td><b>Binding</b></td><td><b>Documentation</b></td></tr><tr><td>IN</td><td>amka</td><td/><td>0..1</td><td><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td/><td><div><p>The AMKA value to search for. Must be an 11-digit numeric string.</p>
+</div></td></tr></table><div><p>This operation allows searching for a Patient resource conforming to the PatientProfile by its AMKA extension value.</p>
+</div></div>
+  </text>
+  <url value="https://hl7.org/fhir/OperationDefinition/SearchByAmka"/>
+  <version value="1.0.0"/>
+  <name value="SearchByAmka"/>
+  <title value="Search By AMKA"/>
+  <status value="draft"/>
+  <kind value="operation"/>
+  <date value="2025-01-16T11:44:23+02:00"/>
+  <publisher value="FHIR Greek Core"/>
+  <contact>
+    <name value="FHIR Greek Core"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org"/>
+    </telecom>
+  </contact>
+  <description value="Search for a PatientProfile by AMKA extension value. Returns a single Patient resource if found."/>
+  <code value="search-by-amka"/>
+  <comment value="This operation allows searching for a Patient resource conforming to the PatientProfile by its AMKA extension value."/>
+  <resource value="Patient"/>
+  <system value="false"/>
+  <type value="true"/>
+  <instance value="false"/>
+  <outputProfile value="https://hl7.org/fhir/StructureDefinition/PatientProfile"/>
+  <parameter>
+    <name value="amka"/>
+    <use value="in"/>
+    <min value="0"/>
+    <max value="1"/>
+    <documentation value="The AMKA value to search for. Must be an 11-digit numeric string."/>
+    <type value="string"/>
+  </parameter>
+</OperationDefinition>
