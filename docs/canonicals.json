@@ -1,0 +1,37 @@
+[
+  {
+    "id" : "ExampleIG",
+    "type" : "ImplementationGuide",
+    "url" : "http://hl7.org/fhir/ExampleIG/ImplementationGuide/ExampleIG",
+    "version" : "1.0.0",
+    "name" : "ExampleIG"
+  },
+  {
+    "id" : "AMKAExtention",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/ExampleIG/StructureDefinition/AMKAExtention",
+    "version" : "1.0.0",
+    "name" : "AMKAExtention"
+  },
+  {
+    "id" : "search-by-amka",
+    "type" : "OperationDefinition",
+    "url" : "https://hl7.org/fhir/OperationDefinition/SearchByAmka",
+    "version" : "1.0.0",
+    "name" : "SearchByAmka"
+  },
+  {
+    "id" : "EmergencyContactExtension",
+    "type" : "StructureDefinition",
+    "url" : "https://hl7.org/fhir/StructureDefinition/EmergencyContactExtension",
+    "version" : "1.0.0",
+    "name" : "EmergencyContactExtension"
+  },
+  {
+    "id" : "PatientProfile",
+    "type" : "StructureDefinition",
+    "url" : "https://hl7.org/fhir/StructureDefinition/PatientProfile",
+    "version" : "1.0.0",
+    "name" : "PatientProfile"
+  }
+]
