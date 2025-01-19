@@ -9,7 +9,7 @@
   "version" : "1.0.0",
   "name" : "ExampleIG",
   "status" : "draft",
-  "date" : "2025-01-16T11:44:23+02:00",
+  "date" : "2025-01-19T20:06:03+02:00",
   "publisher" : "FHIR Greek Core",
   "contact" : [{
     "name" : "FHIR Greek Core",
@@ -626,9 +626,9 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/PatientProfile"
+        "reference" : "StructureDefinition/GreekPatientProfile"
       },
-      "name" : "PatientProfile",
+      "name" : "GreekPatientProfile",
       "description" : "Custom Patient that supports AMKA and Emergency Contact",
       "exampleBoolean" : false
     },
@@ -641,7 +641,7 @@
         "reference" : "OperationDefinition/search-by-amka"
       },
       "name" : "Search By AMKA",
-      "description" : "Search for a PatientProfile by AMKA extension value. Returns a single Patient resource if found.",
+      "description" : "Search for a GreekPatientProfile by AMKA extension value. Returns a single Patient resource if found.",
       "exampleBoolean" : false
     }],
     "page" : {

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+    <!-- Home -->
+    <entry name="Home" url="index.html"/>
+    
+    <!-- Profiles Section -->
+    <entry name="Profiles">
+        <entry name="Patient Profile" url="StructureDefinition-PatientProfile.html"/>
+    </entry>
+
+    <!-- Extensions Section -->
+    <entry name="Extensions">
+        <entry name="AMKA Extension" url="StructureDefinition-AMKAExtention.html"/>
+        <entry name="Emergency Contact Extension" url="StructureDefinition-EmergencyContactExtension.html"/>
+    </entry>
+
+    <!-- Operations Section -->
+    <entry name="Operations">
+        <entry name="Search By AMKA" url="OperationDefinition-SearchByAmka.html"/>
+    </entry>
+
+    <!-- ValueSets Section -->
+    <entry name="Value Sets">
+        <entry name="Emergency Contact Relationship" url="ValueSet-emergency-contact-relationship.html"/>
+    </entry>
+
+    <!-- Downloads Section -->
+    <entry name="Downloads">
+        <entry name="Full Implementation Guide (ZIP)" url="downloads/IG-Package.zip"/>
+        <entry name="FHIR Definitions (JSON)" url="downloads/fhir-definitions.json"/>
+    </entry>
+</menu>

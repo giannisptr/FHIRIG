@@ -9,7 +9,7 @@
   <version value="1.0.0"/>
   <name value="ExampleIG"/>
   <status value="draft"/>
-  <date value="2025-01-16T11:44:23+02:00"/>
+  <date value="2025-01-19T20:06:03+02:00"/>
   <publisher value="FHIR Greek Core"/>
   <contact>
     <name value="FHIR Greek Core"/>
@@ -468,9 +468,9 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/PatientProfile"/>
+        <reference value="StructureDefinition/GreekPatientProfile"/>
       </reference>
-      <name value="PatientProfile"/>
+      <name value="GreekPatientProfile"/>
       <description value="Custom Patient that supports AMKA and Emergency Contact"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -482,7 +482,7 @@
         <reference value="OperationDefinition/search-by-amka"/>
       </reference>
       <name value="Search By AMKA"/>
-      <description value="Search for a PatientProfile by AMKA extension value. Returns a single Patient resource if found."/>
+      <description value="Search for a GreekPatientProfile by AMKA extension value. Returns a single Patient resource if found."/>
       <exampleBoolean value="false"/>
     </resource>
     <page>

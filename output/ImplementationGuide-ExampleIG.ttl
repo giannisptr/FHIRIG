@@ -16,7 +16,7 @@
   fhir:version [ fhir:v "1.0.0"] ; # 
   fhir:name [ fhir:v "ExampleIG"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-01-16T11:44:23+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-01-19T20:06:03+02:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "FHIR Greek Core"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "FHIR Greek Core" ] ;
@@ -538,10 +538,10 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/ExampleIG/StructureDefinition/PatientProfile> ;
-         fhir:reference [ fhir:v "StructureDefinition/PatientProfile" ]
+         fhir:link <http://hl7.org/fhir/ExampleIG/StructureDefinition/GreekPatientProfile> ;
+         fhir:reference [ fhir:v "StructureDefinition/GreekPatientProfile" ]
        ] ;
-       fhir:name [ fhir:v "PatientProfile" ] ;
+       fhir:name [ fhir:v "GreekPatientProfile" ] ;
        fhir:description [ fhir:v "Custom Patient that supports AMKA and Emergency Contact" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
@@ -554,7 +554,7 @@
          fhir:reference [ fhir:v "OperationDefinition/search-by-amka" ]
        ] ;
        fhir:name [ fhir:v "Search By AMKA" ] ;
-       fhir:description [ fhir:v "Search for a PatientProfile by AMKA extension value. Returns a single Patient resource if found." ] ;
+       fhir:description [ fhir:v "Search for a GreekPatientProfile by AMKA extension value. Returns a single Patient resource if found." ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] ) ;
      fhir:page [
@@ -627,7 +627,7 @@
 
 <http://hl7.org/fhir/ExampleIG/StructureDefinition/EmergencyContactExtension> a fhir:ExampleIG .
 
-<http://hl7.org/fhir/ExampleIG/StructureDefinition/PatientProfile> a fhir:ExampleIG .
+<http://hl7.org/fhir/ExampleIG/StructureDefinition/GreekPatientProfile> a fhir:ExampleIG .
 
 <http://hl7.org/fhir/ExampleIG/OperationDefinition/search-by-amka> a fhir:ExampleIG .
 

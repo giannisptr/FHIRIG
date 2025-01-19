@@ -6,10 +6,10 @@
   "status" : "draft",
   "package-id" : "ExampleIG",
   "ig-ver" : "1.0.0",
-  "date" : "Thu, 16 Jan, 2025 11:44:23 +0200",
-  "dateISO8601" : "2025-01-16T11:44:23+02:00",
+  "date" : "Sun, 19 Jan, 2025 20:06:03 +0200",
+  "dateISO8601" : "2025-01-19T20:06:03+02:00",
   "exception" : "Index -1 out of bounds for length 1",
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 1473843008
+  "maxMemory" : 989670200
 }

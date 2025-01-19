@@ -10,7 +10,7 @@
   fhir:id [ fhir:v "search-by-amka"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: OperationDefinition search-by-amka</b></p><a name=\"search-by-amka\"> </a><a name=\"hcsearch-by-amka\"> </a><a name=\"search-by-amka-en-US\"> </a><p>URL: [base]/Patient/$search-by-amka</p><p>Output parameters Profile:<a href=\"StructureDefinition-PatientProfile.html\">PatientProfile</a></p><h3>Parameters</h3><table class=\"grid\"><tr><td><b>Use</b></td><td><b>Name</b></td><td><b>Scope</b></td><td><b>Cardinality</b></td><td><b>Type</b></td><td><b>Binding</b></td><td><b>Documentation</b></td></tr><tr><td>IN</td><td>amka</td><td/><td>0..1</td><td><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td/><td><div><p>The AMKA value to search for. Must be an 11-digit numeric string.</p>\n</div></td></tr></table><div><p>This operation allows searching for a Patient resource conforming to the PatientProfile by its AMKA extension value.</p>\n</div></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: OperationDefinition search-by-amka</b></p><a name=\"search-by-amka\"> </a><a name=\"hcsearch-by-amka\"> </a><a name=\"search-by-amka-en-US\"> </a><p>URL: [base]/Patient/$search-by-amka</p><p>Output parameters Profile:<a href=\"StructureDefinition-GreekPatientProfile.html\">GreekPatientProfile</a></p><h3>Parameters</h3><table class=\"grid\"><tr><td><b>Use</b></td><td><b>Name</b></td><td><b>Scope</b></td><td><b>Cardinality</b></td><td><b>Type</b></td><td><b>Binding</b></td><td><b>Documentation</b></td></tr><tr><td>IN</td><td>amka</td><td/><td>0..1</td><td><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td/><td><div><p>The AMKA value to search for. Must be an 11-digit numeric string.</p>\n</div></td></tr></table><div><p>This operation allows searching for a Patient resource conforming to the PatientProfile by its AMKA extension value.</p>\n</div></div>"
   ] ; # 
   fhir:url [ fhir:v "https://hl7.org/fhir/OperationDefinition/SearchByAmka"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "1.0.0"] ; # 
@@ -18,7 +18,7 @@
   fhir:title [ fhir:v "Search By AMKA"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:kind [ fhir:v "operation"] ; # 
-  fhir:date [ fhir:v "2025-01-16T11:44:23+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-01-19T20:06:03+02:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "FHIR Greek Core"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "FHIR Greek Core" ] ;
@@ -27,7 +27,7 @@
        fhir:value [ fhir:v "http://example.org" ]
      ] )
   ] ) ; # 
-  fhir:description [ fhir:v "Search for a PatientProfile by AMKA extension value. Returns a single Patient resource if found."] ; # 
+  fhir:description [ fhir:v "Search for a GreekPatientProfile by AMKA extension value. Returns a single Patient resource if found."] ; # 
   fhir:code [ fhir:v "search-by-amka"] ; # 
   fhir:comment [ fhir:v "This operation allows searching for a Patient resource conforming to the PatientProfile by its AMKA extension value."] ; # 
   fhir:resource ( [ fhir:v "Patient"] ) ; # 
@@ -35,8 +35,8 @@
   fhir:type [ fhir:v "true"^^xsd:boolean] ; # 
   fhir:instance [ fhir:v "false"^^xsd:boolean] ; # 
   fhir:outputProfile [
-     fhir:v "https://hl7.org/fhir/StructureDefinition/PatientProfile"^^xsd:anyURI ;
-     fhir:link <https://hl7.org/fhir/StructureDefinition/PatientProfile>
+     fhir:v "https://hl7.org/fhir/StructureDefinition/GreekPatientProfile"^^xsd:anyURI ;
+     fhir:link <https://hl7.org/fhir/StructureDefinition/GreekPatientProfile>
   ] ; # 
   fhir:parameter ( [
      fhir:name [ fhir:v "amka" ] ;

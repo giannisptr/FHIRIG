@@ -28,10 +28,10 @@
     "name" : "EmergencyContactExtension"
   },
   {
-    "id" : "PatientProfile",
+    "id" : "GreekPatientProfile",
     "type" : "StructureDefinition",
-    "url" : "https://hl7.org/fhir/StructureDefinition/PatientProfile",
+    "url" : "https://hl7.org/fhir/StructureDefinition/GreekPatientProfile",
     "version" : "1.0.0",
-    "name" : "PatientProfile"
+    "name" : "GreekPatientProfile"
   }
 ]

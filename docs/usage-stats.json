@@ -74,8 +74,8 @@
   "profiles": {
     "Patient": [
       {
-        "url": "https://hl7.org/fhir/StructureDefinition/PatientProfile",
-        "title": "PatientProfile"
+        "url": "https://hl7.org/fhir/StructureDefinition/GreekPatientProfile",
+        "title": "GreekPatientProfile"
       }
     ]
   },
